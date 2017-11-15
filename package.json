@@ -1,0 +1,19 @@
+{
+  "name": "youtube-cloud-sync",
+  "version": "1.0.0",
+  "description": "A Node.js Lambda for consumminng YouTube push notifications and sending the video to a cloud provider. It uses the [YouTube Push Notifications API](https://developers.google.com/youtube/v3/guides/push_notifications), the [YouTube Data API v3](https://developers.google.com/youtube/v3/) and the [OneDrive API](#). Subscriptions are processed, sending YouTube videos to a cloud provider.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrehagen/youtube-cloud-sync.git"
+  },
+  "author": "Jackson Delahunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabrehagen/youtube-cloud-sync/issues"
+  },
+  "homepage": "https://github.com/sabrehagen/youtube-cloud-sync#readme"
+}
